@@ -32,10 +32,16 @@ html,body{
 }
 
 .music-player{
-    width: 400px;
+    width: 80%;
     box-shadow: 0.1rem 0.1rem 1rem 0.2rem #222121;
     border-radius: 1.5rem;
     padding: 1.5rem;
+}
+
+@media screen and (min-width:768px) {
+    .music-player{
+        width: 400px;
+    }
 }
 
 .music-player .header{
